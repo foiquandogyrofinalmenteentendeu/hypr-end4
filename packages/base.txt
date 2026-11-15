@@ -1,0 +1,21 @@
+# Pacotes base (os mesmos do guia de instalação, passo 3).
+# Ajuste se o hardware for diferente (ex.: NVIDIA/Intel em vez de AMD).
+base-devel
+git
+curl
+wget
+unzip
+zip
+linux-firmware
+networkmanager
+pipewire
+pipewire-alsa
+pipewire-pulse
+wireplumber
+bluez
+bluez-utils
+mesa
+vulkan-radeon
+libva-mesa-driver
+amd-ucode
+rsync

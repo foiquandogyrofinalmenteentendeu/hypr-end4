@@ -1,0 +1,2 @@
+# Commit do end-4/dots-hyprland que funcionava com suas configs.
+# Preenchido pelo ./backup.sh. Se ficar vazio, o install.sh usa o commit mais recente.

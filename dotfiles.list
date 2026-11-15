@@ -1,0 +1,9 @@
+# Pastas dentro de ~/.config que o backup.sh salva e o install.sh restaura.
+# Uma por linha. Linhas com # são ignoradas. Pastas que não existem são puladas.
+hypr
+illogical-impulse
+# Exemplos (descomente se usar):
+# kitty
+# fuzzel
+# foot
+# fish
