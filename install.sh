@@ -97,7 +97,7 @@ if [ "$DO_CONFIG" = 1 ]; then
     src="$REPO_DIR/config/$name"; dst="$HOME/.config/$name"
     if [ ! -d "$src" ]; then warn "config/$name não existe no repo, pulando."; continue; fi
     if [ -e "$dst" ]; then
-      mv "$dst" "$dst.bak-$STAMP"
+      cp -a "$dst" "$dst.bak-$STAMP"
       echo "Backup do existente: $dst.bak-$STAMP"
     fi
     mkdir -p "$dst"

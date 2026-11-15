@@ -1,3 +1,5 @@
 *.bak-*
 *.log
 .env
+config/illogical-impulse/installed_listfile
+config/illogical-impulse/installed_true
